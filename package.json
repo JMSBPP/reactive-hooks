@@ -1,0 +1,32 @@
+{
+  "name": "reactive-hook-plugins",
+  "version": "1.0.0",
+  "description": "A sophisticated, upgradeable smart contract system that implements reactive components for DeFi hooks using the Beacon Proxy pattern and reactive callback compliance.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMSBPP/Reactive-Hook-Plugins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMSBPP/Reactive-Hook-Plugins/issues"
+  },
+  "homepage": "https://github.com/JMSBPP/Reactive-Hook-Plugins#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^3.0.1"
+  },
+  "dependencies": {
+    "@1inch/limit-order-protocol": "^2.0.5"
+  }
+}

@@ -1,0 +1,19 @@
+[profile.default]
+src = "src"
+out = "foundry-out"
+libs = ["node_modules","lib"]
+ffi = true
+solc_version = "0.8.26"
+evm_version = "cancun"
+
+[rpc_endpoints]
+
+sepolia = "https://g.w.lavanet.xyz:443/gateway/sep1/rpc-http/0e1cfb566bd2ce33c7cb707c85397e07"
+reactive-testnet = "https://lasna-rpc.rnk.dev/"
+
+[etherscan]
+
+sepolia = {key = "${ETHERSCAN_API_KEY}"}
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
