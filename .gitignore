@@ -24,3 +24,4 @@ foundry-out/
 .DS_Store
 .vscode/
 .idea/
+.gitignore/
