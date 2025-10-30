@@ -15,7 +15,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-lib/
 cache/
 broadcast/
 foundry-out/
@@ -23,5 +22,4 @@ foundry-out/
 *.swo
 .DS_Store
 .vscode/
-.idea/
 .gitignore/
