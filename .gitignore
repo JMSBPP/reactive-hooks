@@ -1,3 +1,6 @@
+NOTES.md
+aiUtils/
+.cursor/
 node_modules/
 /dist/
 /build/
